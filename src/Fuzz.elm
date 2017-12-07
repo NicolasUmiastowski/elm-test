@@ -1,6 +1,6 @@
 module Fuzz exposing (Fuzzer, custom, unit, bool, order, array, char, float, floatRange, int, tuple, tuple3, tuple4, tuple5, result, string, percentage, map, maybe, intRange, list, frequency, frequencyOrCrash)
 
-{-| This is a library of *fuzzers* you can use to supply values to your fuzz
+{-| This is a librarie of *fuzzers* you can use to supply values to your fuzz
 tests. You can typically pick out which ones you need according to their types.
 
 A `Fuzzer a` knows how to create values of type `a` in two different ways. It
