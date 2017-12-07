@@ -37,7 +37,7 @@ readmeExample =
                 \() ->
                     "ABCDEFG"
                         |> String.reverse
-                        |> Expect.equal "GFEDCBA"
+                        |> Expect.equal "GRRDCBA"
             , fuzz string "restores the original string if you run it again" <|
                 \randomlyGeneratedString ->
                     randomlyGeneratedString
